@@ -16,25 +16,36 @@ Explore andintegrate third-party libraries like ShadCN for UI enhancements.
 
 Encourage creativity by adding unique features or improvements beyond the Airbnb homepage.
 
-🚀 **Expected Deliverables**
+🛠️ **Approach**
 
-A fully functional and responsive Airbnb homepage clone built with React and TailwindCSS.
+Structured the app as a single-file React component with clearly separated logical sections — Navbar, Category Tabs, Property Grid, and Map Toggle — following clean component hierarchy
 
-Clean, modular, and reusable code with proper documentation.
+Used Tailwind's responsive grid system (sm:grid-cols-2 → 2xl:grid-cols-6) to auto-adapt the property card layout across all breakpoints without media query boilerplate
 
-Creative enhancements or additional features beyond the original Airbnb design.
+Sourced real Unsplash image URLs with Indian property locations (Manali, Goa, Gulmarg) to give the clone an authentic, localized feel with ₹ pricing
 
-Deployment of the project on ahosting platform (e.g., Vercel, Netlify or GitHub Pages). A short presentation/demo explaining the approach, challenges, and learnings.
+Kept state minimal and local with 3 useState hooks (activeCategory, likedProperties, mapVisible) — no Redux or Context needed for this scope
 
-🛠️ **Evaluation Criteria**
+⚡ **Challenges**
 
-Code quality, structure, and adherence to best practices.
+Tailwind JIT doesn't ship animate-spin-slow or scrollbar-none natively, so custom CSS keyframes + .no-scrollbar had to be injected via a <style> tag inside the component
 
-Accuracy of the Airbnb homepage clone (layout, styling, responsiveness).
+ Reconstructing the Airbnb belo logo as a clean custom SVG <path> from scratch without using any licensed or copyrighted asset was geometrically tricky
+ 
+Making the search pill bar collapse gracefully — showing 3 labelled buttons on desktop but only "Where to?" on mobile — required careful hidden sm:block / sm:hidden layering
 
-Creativity and originality in additional features or enhancements.
+Managing z-index stacking between sticky header (z-50), fixed map button (z-40), and fullscreen map overlay (z-30) without visual conflicts
 
-Effective use of third-party libraries and tools.
+📚 **Learnings**
+
+Learned that Tailwind's utility gaps can be cleanly bridged by injecting a <style> block with custom @keyframes directly inside JSX without any config changes
+
+Understood how aspect-square + object-cover together create perfectly uniform image cards regardless of the original image dimensions or aspect ratio
+
+Practiced e.stopPropagation() to prevent the like ❤️ button click from bubbling up to the parent card's click handler — a critical real-world UX pattern
+
+The repo shows 82.6% JavaScript, 15.5% CSS, 1.9% HTML — confirming the architecture is JS-dominant with Tailwind handling most styling, keeping raw CSS minimal and purposeful.
+
 
 
 👩‍💻 **Author**
