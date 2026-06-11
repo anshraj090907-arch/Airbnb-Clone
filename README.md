@@ -21,6 +21,7 @@ Accuracy of the Airbnb homepage clone (layout, styling, responsiveness).
 Creativity and originality in additional features or enhancements.
 Effective use of third-party libraries and tools.
 
-Database connectivity
+
 👩‍💻 **Author**
+
 _**ANSH RAJ SAXENA**_
