@@ -9,33 +9,23 @@ By the end of the project, interns will have hands-on experience in translating 
 🎯 **Project Objectives**
 
 Understand and implement component-based architecture using React.
-
 Apply responsive design techniques with Tailwind CSS for seamless cross-device compatibility.
-
 Explore andintegrate third-party libraries like ShadCN for UI enhancements.
-
 Encourage creativity by adding unique features or improvements beyond the Airbnb homepage.
 
 🚀 **Expected Deliverables**
 
 A fully functional and responsive Airbnb homepage clone built with React and TailwindCSS.
-
 Clean, modular, and reusable code with proper documentation.
-
 Creative enhancements or additional features beyond the original Airbnb design.
-
 Deployment of the project on ahosting platform (e.g., Vercel, Netlify or GitHub Pages). A short presentation/demo explaining the approach, challenges, and learnings.
 
 🛠️ **Evaluation Criteria**
 
 Code quality, structure, and adherence to best practices.
-
 Accuracy of the Airbnb homepage clone (layout, styling, responsiveness).
-
 Creativity and originality in additional features or enhancements.
-
 Effective use of third-party libraries and tools.
-
 
 
 👩‍💻 **Author**
