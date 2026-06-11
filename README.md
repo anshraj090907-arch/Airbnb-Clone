@@ -1,7 +1,9 @@
 🤖 Airbnb Clone
 
 📌 **Project Overview**
+
 In this project, interns will work on building a fully responsive clone of the Airbnb homepage from scratch using React and Tailwind CSS. The objective is to strengthen their understanding of component-based architecture, responsive design principles, and modern frontend tooling. Interns are encouraged to explore third-party libraries such as ShadCN to enhance functionality and styling. Beyond simply replicating the Airbnb homepage, participants should add their own creative touches andimaginative features to showcase innovation and personal style.
+
 By the end of the project, interns will have hands-on experience in translating real-world design into functional code, improving Ul/UX practices, and applying modern frontend developmenttechniques used in the industry.
 
 🎯 **Project Objectives**
